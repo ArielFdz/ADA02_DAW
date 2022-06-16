@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: white;
+}
+
+/*Diseño Header*/
+
+header{
+    height: 130px;
+    display: flex;
+    width: 100%;
+    background-color:#F5DF99 ;
+    color: green;
+    font-size: large;
+    font-family: 'Courier New', Courier, monospace;
+    display: flex;
+    justify-content: center;
+}
+
+.cabecera{
+    display: flex;
+    align-items: center;
+}
+
+.cabecera img{
+    width: 120px;
+    height: 107px;
+}
+
+
+/*Diseño main*/
+
+main{
+    display: flex;
+    justify-content: center;
+    margin-top: 125px;
+}
+
+.categorias{
+    display: flex;
+    background-color: green;
+    width: 375px;
+}
+
+.categorias a{
+    color: white;
+    width: 125px;
+    text-align: center;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.categorias a:hover{
+    color: black;
+}
+
+.primeraParte{
+    display: flex;
+}
+
+.segundaParte{
+    display: flex;
+}
+
+.portada7 a{
+    width: 95px;
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.terceraParte{
+    display: flex;
+}
+
+
+/*Diseño footer*/
+
+footer{
+    color: white;
+    bottom: 0px;
+    width: 100%;
+    position: fixed;
+    background: #4B8673;
+    font-family: 'Poppins', sans-serif;
+}
+
+.apartados{
+    display: flex;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    justify-content: center;
+    gap: 5px;
+    font-weight: bold;
+}
+
+.apartados a{
+    text-decoration: none;
+    color: white;
+}
+
+.apartados a:hover{
+    color: black;
+}
+
+.barraImagen{
+    background-color:black ;
+}
+
+.barraImagen img{
+    display: block;
+    margin-left: auto;
+    opacity: 0.6;
+}
+
+
+
+/*Imagenes que cambian xd*/
+.contenedor {
+    position: relative;
+    width: 95px;
+    display: flex;
+    flex-flow: row wrap;
+}
+  
+.contenedor a {
+    position: absolute;
+    left: 0;
+}
+  
+.contenedor a:hover {
+    opacity: 0;
+}
